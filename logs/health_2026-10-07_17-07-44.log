@@ -1,0 +1,137 @@
+﻿*************** Automated System Health Check Logs ***************
+Date: 10/07/2026 17:07:44
+Host: U-49P1FX3   User: MiryalaM
+
+[UPTIME]
+Up 2 days, 2 hours, 14 minutes
+
+[CPU LOAD]
+Average CPU load: 4%
+
+[MEMORY USAGE]
+Total: 15.69 GB | Used: 13.31 GB | Free: 2.38 GB | Used%: 84.8%
+
+[DISK USAGE]
+
+DeviceID Size(GB) Free(GB) Used%
+-------- -------- -------- -----
+C:          377.7    247.7  34.4
+D:           97.7     94.5   3.2
+
+
+
+
+[TOP 10 PROCESSES USING HIGH MEMORY]
+
+   Id ProcessName        Mem(MB) CPU        
+   -- -----------        ------- ---        
+ 4256 Memory Compression    1054            
+19144 msedgewebview2       613.1 1076.984375
+35856 claude               565.5 141.234375 
+ 9628 chrome               454.2 141.75     
+38512 chrome               373.1 66.078125  
+30576 Code                   346 153.875    
+37324 Code                 281.7 19.203125  
+27544 claude               272.5 101.78125  
+15528 claude               267.9 25.765625  
+ 1444 chrome               266.6 1964.9375  
+
+
+
+
+[TOP 10 PROCESSES USING HIGH CPU]
+
+   Id ProcessName           Mem(MB) CPU(s)
+   -- -----------           ------- ------
+ 7048 msedgewebview2             77 4110.3
+23576 chrome                  229.4 2793.5
+23036 msedgewebview2             37 2333.7
+ 1444 chrome                  266.6 1964.9
+23944 msedgewebview2           22.9 1104.8
+19144 msedgewebview2          613.2   1077
+30300 OneDrive.Sync.Service    46.9  898.7
+ 3424 csc_ui                   23.6  841.9
+14768 msedgewebview2          133.5  827.7
+12980 explorer                198.2  759.9
+
+
+
+
+[NETWORK - IP CONFIGURATION]
+
+
+InterfaceAlias : Wi-Fi
+IPv4Address    : 192.168.0.103
+Gateway        : 192.168.0.1
+DNS            : 192.168.0.1
+
+
+
+
+
+[NETWORK - ROUTING TABLE]
+===========================================================================
+Interface List
+ 14...4c d7 17 4d d7 ed ......Intel(R) Ethernet Connection (23) I219-LM
+ 12...f4 6d 3f 1d 04 d5 ......Microsoft Wi-Fi Direct Virtual Adapter
+  5...f6 6d 3f 1d 04 d4 ......Microsoft Wi-Fi Direct Virtual Adapter #2
+  9...f4 6d 3f 1d 04 d4 ......Intel(R) Wi-Fi 6E AX211 160MHz
+  8...f4 6d 3f 1d 04 d8 ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0      192.168.0.1    192.168.0.103     35
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.0.0    255.255.255.0         On-link     192.168.0.103    291
+    192.168.0.103  255.255.255.255         On-link     192.168.0.103    291
+    192.168.0.255  255.255.255.255         On-link     192.168.0.103    291
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link     192.168.0.103    291
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link     192.168.0.103    291
+===========================================================================
+Persistent Routes:
+  None
+
+[NETWORK - ACTIVE CONNECTIONS (ESTABLISHED)]
+
+LocalAddress  LocalPort RemoteAddress   RemotePort OwningProcess
+------------  --------- -------------   ---------- -------------
+192.168.0.103     65395 163.129.195.5          443         12724
+127.0.0.1         65394 127.0.0.1             5002         26700
+192.168.0.103     65111 185.199.110.133        443         26700
+127.0.0.1         65042 127.0.0.1            49688          3424
+192.168.0.103     64540 163.129.195.5          443         12724
+127.0.0.1         64539 127.0.0.1             5002         26700
+127.0.0.1         64386 127.0.0.1             5002         26700
+127.0.0.1         64078 127.0.0.1             5002         26700
+192.168.0.103     63373 52.168.112.67          443         26700
+127.0.0.1         62522 127.0.0.1            49689          4952
+127.0.0.1         62522 127.0.0.1            55180          4952
+127.0.0.1         62447 127.0.0.1             5002         26700
+192.168.0.103     62388 163.129.195.5          443         12724
+127.0.0.1         62387 127.0.0.1             5002         26700
+192.168.0.103     62327 163.129.195.5          443         12724
+
+
+
+
+[CRITICAL SERVICES]
+
+Name       Status StartType
+----       ------ ---------
+Dnscache  Running Automatic
+Spooler   Running Automatic
+W32Time   Running Automatic
+WinDefend Stopped    Manual
+
+
+
+
+***** Report Generated Successfully *****

@@ -1,0 +1,153 @@
+﻿*************** Automated System Health Check Logs ***************
+Date: 10/07/2026 16:49:58
+Host: U-49P1FX3   User: MiryalaM
+
+[UPTIME]
+Up 2 days, 1 hours, 56 minutes
+
+[CPU LOAD]
+Average CPU load: 16%
+
+[MEMORY USAGE]
+Total: 15.69 GB | Used: 13.24 GB | Free: 2.45 GB | Used%: 84.4%
+
+[DISK USAGE]
+
+DeviceID Size(GB) Free(GB) Used%
+-------- -------- -------- -----
+C:          377.7    248.2  34.3
+D:           97.7     94.5   3.2
+
+
+
+
+[TOP 10 PROCESSES USING HIGH MEMORY]
+
+   Id ProcessName        Mem(MB)         CPU
+   -- -----------        -------         ---
+ 9628 chrome               530.5  133.453125
+35856 claude               512.5      46.125
+ 4256 Memory Compression   506.1            
+19144 msedgewebview2         504 1060.046875
+34096 msedge               415.7   72.359375
+30576 Code                 342.3      70.875
+29908 msedge               336.6   16.953125
+ 5960 Code                 302.9   24.953125
+20616 msedge               284.3    12.21875
+38512 chrome               267.9    34.78125
+
+
+
+
+[TOP 10 PROCESSES USING HIGH CPU]
+
+   Id ProcessName           Mem(MB) CPU(s)
+   -- -----------           ------- ------
+ 7048 msedgewebview2          224.6 4026.4
+23576 chrome                  205.1 2785.2
+23036 msedgewebview2           47.3 2333.6
+ 1444 chrome                  265.5 1935.5
+23944 msedgewebview2           23.1 1104.7
+19144 msedgewebview2            504   1060
+30300 OneDrive.Sync.Service    53.6  898.2
+ 3424 csc_ui                   23.6  825.5
+14768 msedgewebview2          113.6  810.8
+12980 explorer                214.2  746.7
+
+
+
+
+[NETWORK - IP CONFIGURATION]
+
+
+InterfaceAlias     : Wi-Fi
+IPv4Address        : {192.168.0.103}
+IPv4DefaultGateway : {MSFT_NetRoute (InstanceID = ":8:8:8:9:55C55;C?8;@B8:8;55;")}
+DNSServer          : {MSFT_DNSClientServerAddress (Name = "9", CreationClassName = "", SystemCreationClassName = "", 
+                     SystemName = "23"), MSFT_DNSClientServerAddress (Name = "9", CreationClassName = "", 
+                     SystemCreationClassName = "", SystemName = "2")}
+
+InterfaceAlias     : Ethernet 2
+IPv4Address        : 
+IPv4DefaultGateway : 
+DNSServer          : {MSFT_DNSClientServerAddress (Name = "14", CreationClassName = "", SystemCreationClassName = "", 
+                     SystemName = "23"), MSFT_DNSClientServerAddress (Name = "14", CreationClassName = "", 
+                     SystemCreationClassName = "", SystemName = "2")}
+
+InterfaceAlias     : Bluetooth Network Connection
+IPv4Address        : 
+IPv4DefaultGateway : 
+DNSServer          : {MSFT_DNSClientServerAddress (Name = "8", CreationClassName = "", SystemCreationClassName = "", 
+                     SystemName = "23"), MSFT_DNSClientServerAddress (Name = "8", CreationClassName = "", 
+                     SystemCreationClassName = "", SystemName = "2")}
+
+
+
+
+
+[NETWORK - ROUTING TABLE]
+===========================================================================
+Interface List
+ 14...4c d7 17 4d d7 ed ......Intel(R) Ethernet Connection (23) I219-LM
+ 12...f4 6d 3f 1d 04 d5 ......Microsoft Wi-Fi Direct Virtual Adapter
+  5...f6 6d 3f 1d 04 d4 ......Microsoft Wi-Fi Direct Virtual Adapter #2
+  9...f4 6d 3f 1d 04 d4 ......Intel(R) Wi-Fi 6E AX211 160MHz
+  8...f4 6d 3f 1d 04 d8 ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0      192.168.0.1    192.168.0.103     35
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.0.0    255.255.255.0         On-link     192.168.0.103    291
+    192.168.0.103  255.255.255.255         On-link     192.168.0.103    291
+    192.168.0.255  255.255.255.255         On-link     192.168.0.103    291
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link     192.168.0.103    291
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link     192.168.0.103    291
+===========================================================================
+Persistent Routes:
+  None
+
+[NETWORK - ACTIVE CONNECTIONS (ESTABLISHED)]
+
+LocalAddress  LocalPort RemoteAddress RemotePort OwningProcess
+------------  --------- ------------- ---------- -------------
+127.0.0.1         65042 127.0.0.1          49688          3424
+192.168.0.103     64487 160.79.104.10        443         15528
+192.168.0.103     64486 160.79.104.10        443         15528
+192.168.0.103     64485 160.79.104.10        443         15528
+192.168.0.103     64484 160.79.104.10        443         15528
+192.168.0.103     64483 160.79.104.10        443         15528
+192.168.0.103     64482 160.79.104.10        443         15528
+192.168.0.103     64481 160.79.104.10        443         15528
+192.168.0.103     64480 160.79.104.10        443         15528
+192.168.0.103     64478 160.79.104.10        443         15528
+192.168.0.103     64477 160.79.104.10        443         15528
+192.168.0.103     64476 160.79.104.10        443         15528
+192.168.0.103     64475 160.79.104.10        443         15528
+192.168.0.103     64473 160.79.104.10        443         15528
+192.168.0.103     64472 160.79.104.10        443         15528
+
+
+
+
+[CRITICAL SERVICES]
+
+Name       Status StartType
+----       ------ ---------
+Dnscache  Running Automatic
+Spooler   Running Automatic
+W32Time   Running Automatic
+WinDefend Stopped    Manual
+
+
+
+
+***** Report Generated Successfully *****
